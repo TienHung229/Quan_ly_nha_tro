@@ -181,6 +181,7 @@ function ManagerPost() {
                 rowKey="_id" // SỬA LẠI rowKey CHO ĐÚNG
                 bordered
                 pagination={false}
+                scroll={{ x: 'max-content' }}
               />
             </>
           ) : (
